@@ -20,4 +20,8 @@ describe("decodedValue", () => {
   test("it should return 46 when invoked with 'Yellow' and 'Blue'", () => {
     expect(decodedValue("Yellow", "Blue")).toEqual(46)
   })
+
+  test("it should return 46 when invoked with 'Yellow', 'Blue', and 'Red'", () => {
+    expect(decodedValue("Yellow", "Blue", "Red")).toEqual(46)
+  })
 })
