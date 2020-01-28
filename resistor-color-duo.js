@@ -1,4 +1,4 @@
-export const decodedValue = (firstColor, secondColor) => {
+export const decodedValue = ([firstColor, secondColor]) => {
   return parseInt(`${COLORS.indexOf(firstColor)}${COLORS.indexOf(secondColor)}`)
 };
 
